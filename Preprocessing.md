@@ -7,7 +7,7 @@ Steps
  
   ``git clone https://github.com/CobraLab/minc-bpipe-library.git``
 
-  this creates a directory in your account with folders and functinos for running the preprocessing steps.
+  this creates a directory in your account with folders and functions for running the preprocessing steps.
   
   
 2. Edit the bpipe repo to prepare for running:
@@ -18,10 +18,10 @@ Steps
 
 4. ``mkdir outputs`` and then ``cd outputs``
 
-5. Load suite of background functions for running pipe
+5. Load suite of background functions for running bpipe
    ``module load scinet``
 
-6. Edit ``pipeline.bpipe'' with the processes you want to run, which are all listed in ''minc-library''
+6. Edit ``pipeline.bpipe`` with the processes you want to run, which are all listed in ``minc-library.bpipe``
  
    open ``pipeline.bpipe`` and remove the word "preprocess" from the between the brackets on the 4th line and in that location copy and paste ``n4correct + linear_antsRegistration + cutneckapplyautocrop + beast`` there.
     
