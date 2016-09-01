@@ -53,6 +53,6 @@ this makes sure you’ve set up your input directory correctly.  If everything i
 
    ``mb run —surfaces —voronoi``
 
-and now you’re run MAGeT.
+and now you’re running MAGeT.
 
 
