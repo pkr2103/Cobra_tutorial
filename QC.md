@@ -17,4 +17,4 @@ D. Now back on scinet, we’ll set up our session to run the qc script.  First l
  
 E. Make a folder in your MAGeT project folder for your qc pngs with ``mkdir qc`` and navigate there with ``cd qc``. Copy the qc script ``nih_qc.sh`` there.
 
-F. Recalling the slice number on which the labels appeared and disappeared, run the qc script. ``./nih_qc.sh path_to_images/* path_to_labels/* —-a slice_number_of_first_label slice_number_of_last_label —-s slice_number_of_first_label slice_number_of_last_label —-c slice_number_of_first_label slice_number_of_last_label    
+F. Recalling the slice number on which the labels appeared and disappeared, run the qc script. ``./nih_qc.sh path_to_images/* path_to_labels/* —-a slice_number_of_first_label slice_number_of_last_label —-s slice_number_of_first_label slice_number_of_last_label —-c slice_number_of_first_label slice_number_of_last_label``    
