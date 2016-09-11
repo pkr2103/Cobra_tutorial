@@ -27,6 +27,8 @@ Steps
 5. Load suite of background functions for running bpipe
    ``module load scinet``
 
+     (NB: Check to see if scinet loaded with ``module list`` and inspect results for scinet.  If it's not there, you'll need to adjust the ``minc-bpipe-library/qstat`` script.  Open ``minc-bpipe-library/qstat`` by typing ``vim`` followed by ``the/path/to/qstat`` (or simply ``qstat`` if you're in the ``minc-bpipe-library`` folder.  Scroll down to the end of the file and on line 136, which should read: ``script.write("module load scinet\n")`` and edit it to ``script.write("module load scinet-dev\n")``.  Follow the rest of the instructions as normal and should work.   
+
 6. Use ``../minc-bpipe-library/bpipe-batch.sh ../minc-bpipe-library/pipeline.bpipe /path_to_inputs/*.mnc > joblist`` to generate a joblist.  
 
 7. Use ``../minc-bpipe-library/qbatch joblist 1 12:00:00`` to submit jobs to scinet queing system
