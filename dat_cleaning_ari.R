@@ -1,5 +1,4 @@
 rm(list=ls())
-### COS VOL BUILD ####
 
 #csv's in KIRK_SCINET_maget_vols
 
